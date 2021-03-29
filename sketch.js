@@ -1,13 +1,13 @@
 var garden,gardenimg,cat,catimg,mouse,mouseimg,cat_walking,mouse_tease,mousestuck,catstuck;
 function preload() {
     //load the images here
-    gardenimg = loadImage("images//garden.png") 
-    catimg = loadAnimation("images//cat1.png")
-    mouseimg = loadImage("images//mouse1.png")
-    cat_walking=loadAnimation("images//cat2.png","images//cat3.png")
-    mouse_tease=loadAnimation("images//mouse2.png","images//mouse3.png")
-    mousestuck=loadAnimation("images//mouse4.png")
-    catstuck=loadAnimation("images//cat4.png")
+    gardenimg = loadImage("garden.png") 
+    catimg = loadAnimation("cat1.png")
+    mouseimg = loadImage("mouse1.png")
+    cat_walking=loadAnimation("cat2.png","cat3.png")
+    mouse_tease=loadAnimation("mouse2.png","mouse3.png")
+    mousestuck=loadAnimation("mouse4.png")
+    catstuck=loadAnimation("cat4.png")
 }
 
 function setup(){
